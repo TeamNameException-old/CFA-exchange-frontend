@@ -1,0 +1,36 @@
+.main {
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 5vw;
+    width: 100svw;
+    background: #212020;
+    box-shadow: 0 .1vw .2vw black;
+    color: white;
+    font-size: 1vw;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    padding: 0 1.5vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.link:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.user_state {
+    width: 30%;
+}

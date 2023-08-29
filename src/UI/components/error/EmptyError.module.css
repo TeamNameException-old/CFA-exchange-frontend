@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    height: 100svh;
+    width: 100svw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.main img {
+    width: 5vw;
+}

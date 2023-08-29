@@ -1,0 +1,74 @@
+@keyframes anim {
+    0% {
+        background: transparent;
+    }
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.info {
+    display: inline-block;
+    background: #2b2c2f;
+    border-radius: .5vw 0 0 .5vw;
+    color: white;
+    width: 24%;
+    padding: .5vw;
+    animation: anim .3s;
+}
+
+.info_contract {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.verif_info {
+    display: flex;
+    align-items: center;
+}
+
+.verif_info img {
+    width: 2vw;
+}
+
+.info_user {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2vw;
+    color: lightgray;
+}
+
+.additional_info {
+    width: 75%;
+}
+
+.additional_info div {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.additional_info button {
+    justify-self: end;
+    font-size: inherit;
+    background: #00c46b;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: .2vw;
+    padding: .2vw .5vw;
+    transition: .3s;
+}
+
+.additional_info button:hover {
+    background: rgba(0, 196, 107, 0.4);
+    transition: .3s;
+    cursor: pointer;
+}

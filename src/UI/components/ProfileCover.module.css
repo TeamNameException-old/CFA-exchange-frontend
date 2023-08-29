@@ -1,0 +1,12 @@
+.main {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,96 @@
+.main {
+    margin: 5.5vw 4vw;
+}
+
+.search {
+    background: #2b2c2f;
+    border-radius: 1vw;
+    padding: .5vw;
+}
+
+.info {
+    display: flex;
+    height: 100svh;
+    overflow: hidden;
+}
+
+.user_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+    width: 50svw;
+    background: linear-gradient(rgb(41, 46, 51), #2b2c2f);
+    color: white;
+    font-size: 1vw;
+}
+
+.user {
+    display: flex;
+    background: #212020;
+    padding: 2vw;
+    border-radius: 2.5vw;
+}
+
+.description span {
+    display: block;
+    margin-left: 1vw;
+}
+
+.user_activity {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1vw;
+    width: 40svw;
+}
+
+.user_activity div {
+    margin: .5vw;
+}
+
+.cfa_info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    width: 50svw;
+}
+
+.buy_cfa {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 3vw;
+    padding: .5vw;
+    bottom: 0;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.buy_cfa span {
+    width: 30%;
+    text-align: center;
+}
+
+.buy_cfa button {
+    width: 70%;
+    height: 100%;
+    background: #00c46b;
+    border: 0;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.buy_cfa button:hover {
+    background: forestgreen;
+    transition: .3s;
+}

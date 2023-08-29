@@ -1,0 +1,15 @@
+.main {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    width: 12vw;
+    border: gray solid .15vw;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.main span {
+    display: block;
+}

@@ -1,0 +1,48 @@
+.main {
+    width: 25vw;
+    height: 35vw;
+    border: #212020 solid .2vw;
+    border-radius: .5vw;
+}
+
+.main img {
+    width: 10vw;
+}
+
+.nav {
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+    height: 10%;
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.bot {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+}
+
+.bot button {
+    text-transform: uppercase;
+    border: 0;
+    font-size: 2vw;
+    font-weight: bold;
+    background: #00c46b;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0 0 .3vw .3vw;
+    transition: .3s;
+}
+
+.bot button:hover {
+    background: forestgreen;
+    transition: .3s;
+}
